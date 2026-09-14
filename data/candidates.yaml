@@ -1,0 +1,91 @@
+version: 1
+updated: 2026-09-14
+reader_baseline: "受过本科程度教育、有基本中外历史框架、不是专题专家的中文成年读者"
+library_snapshot: "v0-calibration"
+
+candidates:
+  - id: starkloff-1918
+    title: "Max Starkloff / St. Louis 1918"
+    focal_actor: "Max C. Starkloff"
+    primary_type: "D2-boundary"
+    status: "packet-prototype-v0.1"
+    qualification: "qualified"
+    packet_feasibility: "GREEN"
+    priority: 1
+    next_step: "closed-book-test-v0.1"
+    workspace: "cases/starkloff-1918/"
+
+  - id: ibm-system360-1962
+    title: "IBM / Vin Learson 1962"
+    focal_actor: "T. Vincent Learson"
+    primary_type: "D2"
+    status: "qualified"
+    qualification: "qualified-after-recut"
+    packet_feasibility: "GREEN-"
+    priority: 2
+    next_step: "wait-for-starkloff-test-then-build-packet"
+    workspace: "cases/ibm-system360-1962/"
+
+  - id: hirabayashi-1942
+    title: "Gordon Hirabayashi 1942"
+    focal_actor: "Gordon Hirabayashi"
+    primary_type: "N"
+    status: "qualified"
+    qualification: "qualified"
+    n_gate_confidence: "M"
+    packet_feasibility: "AMBER-GREEN"
+    priority: 3
+    next_step: "build-after-basic-packet-method-is-validated"
+    workspace: "cases/hirabayashi-1942/"
+
+  - id: donner-reed-1846
+    title: "Donner-Reed / James Reed 1846"
+    focal_actor: "James F. Reed"
+    primary_type: "D1+D2"
+    status: "deferred"
+    qualification: "borderline-qualified-after-recut"
+    packet_feasibility: null
+    priority: 4
+    next_step: "seek-more-contemporaneous-pre-Little-Sandy-evidence"
+    workspace: "cases/donner-reed-1846/"
+
+  - id: challenger-thiokol-1986
+    title: "Challenger / Morton Thiokol 1986"
+    focal_actor: "Morton Thiokol management"
+    primary_type: "D2-boundary"
+    status: "deferred-review-case"
+    qualification: "high-qualified-potential"
+    packet_feasibility: null
+    priority: 5
+    reason_deferred: "blind-simulation value near zero; better as deep review/control sample"
+
+  - id: sugihara-1940
+    title: "Chiune Sugihara 1940"
+    focal_actor: "Chiune Sugihara"
+    primary_type: "D2-boundary+N-secondary"
+    status: "candidate"
+    qualification: "needs-window-and-N-gate-work"
+    packet_feasibility: null
+    priority: 6
+    reason_deferred: "hero narrative contamination; contemporaneous pre-freeze material needs strengthening"
+
+  - id: camp-david-1978
+    title: "Camp David 1978 final settlement wording"
+    focal_actor: "Jimmy Carter"
+    primary_type: "D6"
+    status: "candidate-deferred"
+    qualification: "atom-viable-high-background-cost"
+    packet_feasibility: null
+    priority: 7
+    reason_deferred: "very high background cost and gaps in contemporaneous meeting records"
+
+  - id: shackleton-james-caird-1916
+    title: "Shackleton / James Caird 1916 — current cut"
+    focal_actor: "Ernest Shackleton"
+    primary_type: "D2/D3-candidate"
+    status: "reject-current-D-cut"
+    qualification: "GATE-2-risk"
+    packet_feasibility: null
+    priority: 8
+    next_step: "recut-earlier-or-divert-to-L/W"
+    reason_rejected: "dramatic story but current option set may not contain two genuinely viable alternatives"
