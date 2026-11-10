@@ -1,7 +1,7 @@
 ---
 title: "历史人生模拟阅读项目：路线图与进展"
 date: 2026-09-14
-updated: 2026-09-14
+updated: 2026-11-09
 status: working
 type: synthesis
 topics:
@@ -304,6 +304,21 @@ v0.1仍不是史料精校版。v0.2前应优先补：
 
 ---
 
+## 11. 会话归档交接（2026-11-09）
+
+本会话在Starkloff v0.1完成后，正式把项目从 `c3right/notepad` 迁入独立的 `c3right/history-case-lab`（唯一source of truth），同时确认目前**尚无真实闭卷试读结果**。本会话的关键判断、用户确认的仓库决定、归档覆盖范围和接续入口详见[会话收口与续接说明](./2026-11-09-history-case-lab-session-closeout.md)。
+
+**后续四步属于建议顺序，不代表已启动或取得试读结论：**
+
+1. Starkloff v0.1首次闭卷试读，记录真实Decision Card与偏差；
+2. 按反馈确定Starkloff v0.2的编辑修订与一手史料核验范围；
+3. 基础产品机制得到验证后，制作IBM/Learson异质Packet；
+4. 从两类案例的实际反馈形成Case Packet Editing Spec v1，再扩Hirabayashi与L/W。
+
+项目阶段仍停在**Phase 8B（待首次闭卷试读）**，不因会话归档而推进状态。
+
+---
+
 ## Revision log
 
 - **2026-09-14**：建立路线笔记；记录前两轮压力测试与Decision Atom v1形成过程。
@@ -313,3 +328,4 @@ v0.1仍不是史料精校版。v0.2前应优先补：
 - **2026-09-14**：完成Qualification Sprint 1；Starkloff、Hirabayashi、IBM进入qualified；Donner-Reed重切后边缘qualified并后置。
 - **2026-09-14**：完成三案Packet Feasibility Mini-Design；Starkloff=GREEN、IBM=GREEN-、Hirabayashi=AMBER-GREEN。
 - **2026-09-14**：完成第一份Starkloff Case Packet Prototype v0.1；下一步进入首次闭卷试读与产品层反馈。
+- **2026-11-09**：按本会话收口要求补充独立仓库迁移决策、续接文档及四步条件性推进建议；Phase 8B保持未开始。
