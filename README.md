@@ -47,6 +47,7 @@ D / L / W 定位
 - **迁移与 source-of-truth 说明**：[MIGRATION.md](./MIGRATION.md)
 - **文档目录**：[docs/INDEX.md](./docs/INDEX.md)
 - **项目路线图与当前下一步**：[docs/2026-09-14-history-life-simulation-roadmap.md](./docs/2026-09-14-history-life-simulation-roadmap.md)
+- **上一个研究会话的归档交接**：[2026-11-09 会话收口与续接说明](./docs/2026-11-09-history-case-lab-session-closeout.md)
 - **案例工作区**：[cases/](./cases/)
 - **可复用模板**：[templates/](./templates/)
 - **候选案例注册表**：[data/candidates.yaml](./data/candidates.yaml)
