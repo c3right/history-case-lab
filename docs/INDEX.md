@@ -2,6 +2,7 @@
 
 ## Active rules and roadmap
 
+- [本会话收口与续接说明（2026-11-09）](./2026-11-09-history-case-lab-session-closeout.md) — 重要决定、研究过程、未验证事项和接下来四步的条件性推进计划
 - [项目路线图与进展](./2026-09-14-history-life-simulation-roadmap.md)
 - [Decision Atom 正式字段表 v1](./2026-09-14-history-decision-atom-schema-v1.md)
 - [Decision Atom 软评分量表 v1](./2026-09-14-history-decision-atom-scoring-v1.md)
