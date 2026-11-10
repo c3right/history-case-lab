@@ -90,7 +90,7 @@ language: zh-CN
 - Focal Actor的**权力边界、信息边界、责任边界**保持一致；公司、国家、家庭不是自动同质的行动者。
 - 真实方案按A（明确考虑）、B（强证据推定）、C（后世设想）区分；C级不得伪装成当时开放的主选项。
 - Evidence分B/P/N/R用途；后来口述显式标为Retrospective，不伪装同期日记。
-- ReveaI应区分实际选择、执行、后果、外部变量和史家解释；**Outcome ≠ Decision Quality**。
+- Reveal应区分实际选择、执行、后果、外部变量和史家解释；**Outcome ≠ Decision Quality**。
 - 两类Packet级风险已识别但未升级为新Schema：**Analogical Contamination**（现代疫情经验投射到1918）与**Source-Metadata Leakage**（来源年份本身剧透）。
 - 当前Starkloff操作性Freeze只能定位1918-10-07跨部门会议开始前后；没有证据恢复其精确心理决定分钟。
 
